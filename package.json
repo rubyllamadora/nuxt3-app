@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "../node_modules/.bin/nuxi dev",
+    "build": "../node_modules/.bin/nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nuxt3": "^3.0.0-27404660.0f9bcbf"
+  },
+  "devDependencies": {
+    "@intlify/nuxt3": "^0.1.9",
+    "atlas": "peak-adventure-travel/atlas#6.0.5"
+  }
+}
